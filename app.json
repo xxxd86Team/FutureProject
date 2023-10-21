@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/home/home",
+    "pages/find/find",
+    "pages/profile/profile"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "/static/tab_icons/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "selectedIconPath": "/static/tab_icons/home-active.png"
+      },
+      {
+        "iconPath": "/static/tab_icons/commit.png",
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "selectedIconPath": "/static/tab_icons/commit-active.png"
+      },
+      {
+        "iconPath": "/static/tab_icons/my.png",
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "selectedIconPath": "/static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}
